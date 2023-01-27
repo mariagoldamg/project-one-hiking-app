@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+body{
+  background-color: antiquewhite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background: #4E6C50;
+  display: flex;
+  justify-content: center;
+  padding:15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  padding:10px 40px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.link:hover {
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-transform: capitalize;
+  color:#FF7B54;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-top:50px;
+}
+
+h2 {
+  text-transform: capitalize;
+  color:#4E6C50;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-top:50px;
+}
+h3 {
+  
+  color:#FF7B54;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+h4 {
+ 
+  color:#4E6C50;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+span {
+  color:#4E6C50;
+}
+
+.par {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-weight:400;
+}
+.orange {
+  color:#FF7B54;
+  font-weight: bolder;
+}
+img {
+  margin-top: 30px;
+}
+
+.containerOne {
+  display: flex;
+  justify-content: space-evenly;
+}
+.containerTwo {
+  display: flex;
+  justify-content: center;
+} 
+.btn {
+margin-top: 30px;
+margin-bottom: 50px;
+margin-left:20px;
+padding:10px;
+width:150px;
+border:none;
+background-color: #4E6C50;
+color: aliceblue;
+font-family: 'Encode Sans Semi Expanded', sans-serif;
+font-weight: bold;
+}
+.btn:hover {
+  background-color: #FF7B54;
+  color: #4E6C50;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+font-weight: bold;
+}
+.showBtn {
+  border:none;
+  background-color:antiquewhite;
+  color:#FF7B54;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+font-weight: bold;
+}
+.showBtn:hover {
+background-color: #4E6C50;
+color: aliceblue;
+}
+label{
+  text-transform: capitalize;
+  color:#4E6C50;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  margin-top:50px;
+  font-weight: bold;
+}
+
+.email {
+  width:300px;
+  height:30px;
+  margin-top: 40px;
+  margin-left:20px;
+}
+.message {
+  width:300px;
+  height:100px;
+  margin-top: 40px;
+  margin-left:20px;
+}
+.send {
+  width: 450px
+}
+.icon {
+  margin-left:20px;
+}
+.icon:hover {
+  width:60px;
+}
+
+.hikes {
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+.hike-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: wrap;
+  width:400px;
+  margin-left:50px;
+}
+.show {
+  color:#FF7B54;
+  width:100px;
+  background-color: antiquewhite;
+}
+.show:hover{
+ 
+  color:#4E6C50;
+  background-color: antiquewhite;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description {
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
