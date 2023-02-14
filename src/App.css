@@ -9,13 +9,13 @@ nav {
   padding:15px;
 }
 
-.link {
+.link,.linkMobile {
   padding:10px 40px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
 }
-.link:hover {
+.link,.linkMobile:hover {
   font-weight: bold;
 }
 
@@ -158,4 +158,52 @@ label{
 
 .description {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+ul {
+  display: none;
+ }
+ .hamburgerIcon {
+   display: none;
+   justify-content: space-between;
+ }
+ .bars{
+   display: none;
+ }
+
+@media all and (max-width: 500px){
+  .link {
+    display:none ;
+    }
+    ul{
+      display:block; 
+      align-items:center;
+      }
+      
+      li {
+      list-style: none;
+      padding:5px
+      }
+      .hamburgerIcon {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      .bars{
+        display: block;
+        width:40px;
+        margin-top: -30px;
+      }
+      .bars:hover {
+        width:50px
+      }
+.par {
+  margin-left:10px;
+  margin-right:10px
+}
+label{
+  width:50px
+}
+.hikesImg{
+  width:350px
+}
 }

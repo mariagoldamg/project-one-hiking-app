@@ -32,7 +32,7 @@ const showTextClick = (item) =>{
             <div key={id}>
                 <div className='hike-card'>
                     <h2>{id} - {title}</h2>
-                    <img src= {image} width ='400px' alt="hikes"/>
+                    <img className='hikesImg' src= {image} width ='400px' alt="hikes"/>
                     <h3><span>Legth: </span>{length} <span>Elevation: </span> {elevation}</h3>
                     <h3><span> Difficulty: </span>{level}</h3>
                     <p className='description'>{showMore ? description : description.substring(0,100) + "..."} 
